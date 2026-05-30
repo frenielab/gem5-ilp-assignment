@@ -1,0 +1,10 @@
+EXPERIMENT 1: MinorCPU Basic Pipeline
+simTicks: 28038500 | simInsts: 5701 | numCycles: 56077 | IPC: 0.101664 | CPI: 9.836345
+
+EXPERIMENT 3: Branch Prediction Comparison
+MinorCPU (with BP):      simTicks: 28038500  | numCycles: 56077  | IPC: 0.101664 | CPI: 9.836345
+TimingSimpleCPU (no BP): simTicks: 454646000 | numCycles: 909292 | IPC: 0.006270  | CPI: 159.496930
+
+EXPERIMENT 4: Superscalar
+MinorCPU (in-order):  simTicks: 28038500 | numCycles: 56077 | IPC: 0.101664 | CPI: 9.836345
+O3CPU (out-of-order): simTicks: 15940000 | numCycles: 31881 | IPC: 0.178821 | CPI: 5.592177
